@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "program": "${workspaceFolder}/server/server.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Client",
+            "program": "${workspaceFolder}/client/src/main.jsx"
+        }
+    ]
+}
